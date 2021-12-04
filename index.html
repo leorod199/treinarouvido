@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="br">
+  <head>
+    <title>Treinamento de ouvido</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="top mt-5 text-center">
+      <div class="container">
+        <h2 class="title">Treinamento de ouvido</h2>
+        <p>A nota será exibida abaixo ao clicar no botão "mostrar nota".</p>
+      </div>
+    </section>
+
+    <section class="note mt-5">
+      <div class="container">
+        <div class="wrapper">
+          <div class="bg">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="control mt-3">
+      <div class="container bg">
+        <div class="btns">
+          <p>Selecione o que você gostaria de estudar:</p>
+          <select
+            name="notes"
+            id="notes"
+            class="d-block mb-3 mx-auto custom-select"
+          >
+            <option value="naturalNotes">Naturais [ C,D,E,F,G,A,B ]</option>
+            <option value="sharpNotes">Sustenidos [ C#,D#,F#,G#,A# ]</option>
+            <option value="fullNotes">Todas [ Naturais e Sustenidos ]</option>
+          </select>
+          <button class="noteC btn btn-outline-info w-100 mb-3">
+            Nota C para refêrencia
+          </button>
+
+          <button class="init btn btn-primary my-2 col-12 col-md-2">
+            Gerar Nota
+          </button>
+
+          <button class="repeat btn btn-success my-2 col-12 col-md-2">
+            Repetir Nota
+          </button>
+
+          <button class="show btn btn-danger col-12 col-md-2 my-2">
+            Mostrar Nota
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer class="footer py-3">
+      <div class="container">
+        <h6>Referência e fonte:</h6>
+        <p>
+          Ligação das cores com as notas:
+          <a
+            target="_blank"
+            href="https://musicaeadoracao.com.br/25385/ouvindo-as-cores-visualizando-os-sons/"
+            >musicaeadoracao</a
+          >
+        </p>
+        <p>
+          Notas musicais:
+          <a
+            target="_blank"
+            href="https://www.todamateria.com.br/notas-musicais/"
+            >todamateria</a
+          >
+        </p>
+        <p>
+          Som das notas:
+          <a
+            target="_blank"
+            href="https://freesound.org/people/jobro/packs/2489/"
+            >jobro</a
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <script src="./script.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

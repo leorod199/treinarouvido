@@ -1,0 +1,114 @@
+body {
+  background: #fbfbfb;
+}
+
+.control {
+  .title {
+    text-align: center;
+  }
+  .btns {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+.note {
+  .wrapper {
+    border: 1px solid #666;
+    overflow: hidden;
+    border-radius: 10px;
+    .bg {
+      visibility: hidden;
+      display: flex;
+      margin: auto;
+      height: 50vh;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      span {
+        color: white;
+        font-size: 200px;
+        -webkit-text-stroke: 1px black;
+      }
+
+      &.active {
+        visibility: visible;
+      }
+    }
+  }
+
+  &[data-note="C"] {
+    .bg {
+      background: #1ae4e4;
+    }
+  }
+  &[data-note="C#"] {
+    .bg {
+      background: #244faf;
+    }
+  }
+  &[data-note="D"] {
+    .bg {
+      background: #247acf;
+    }
+  }
+  &[data-note="D#"] {
+    .bg {
+      background: #6f249a;
+    }
+  }
+  &[data-note="E"] {
+    .bg {
+      background: #7a1aba;
+    }
+  }
+  &[data-note="F"] {
+    .bg {
+      background: #a42fc4;
+    }
+  }
+  &[data-note="F#"] {
+    .bg {
+      background: #ef2f24;
+    }
+  }
+  &[data-note="G"] {
+    .bg {
+      background: #faba1a;
+    }
+  }
+  &[data-note="G#"] {
+    .bg {
+      background: #fae444;
+    }
+  }
+  &[data-note="A"] {
+    .bg {
+      background: #8fda24;
+    }
+  }
+  &[data-note="A#"] {
+    .bg {
+      background: #1aaf3a;
+    }
+  }
+  &[data-note="B"] {
+    .bg {
+      background: #1acf8f;
+    }
+  }
+}
+
+.footer {
+  color: white;
+  background: #787878;
+  margin-top: 30px;
+  p {
+    margin-bottom: 0;
+  }
+  a {
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+  }
+}
