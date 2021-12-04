@@ -1,1 +1,1 @@
-Montei esse app como forma de treinar programação, então o código está todo bagunçado :(. Como estou estudando há poquissímos meses, com certeza o código não é bom...mas tentei deixar funcionando rsrs.
+Comecei a estudar programação há pouquíssimo tempo. Então o código está todo bagunçado :(. Minha maior preocupação foi apenas fazer funcionar de forma aceitável.
